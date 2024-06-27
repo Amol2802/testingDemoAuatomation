@@ -20,7 +20,8 @@ public class AlertPopup {
 		Alert alert = driver.switchTo().alert(); 
 		// alert.accept(); // clicking on Ok button
 		alert.dismiss(); // clicking on cancel button
-
+		
+		Thread.sleep(3000);
 	//driver.switchTo().frame("iframe1");
 	//	driver.findElement(By.id("icon-button")).click();
 	}

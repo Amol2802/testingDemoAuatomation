@@ -33,6 +33,8 @@ public class Conditions1 {
 
 		button2.isEnabled();
 		System.out.println(button2.isEnabled());
+		
+		System.out.println("calss completed");
 
 	}
 
