@@ -26,7 +26,7 @@ public class DoubleClick {
 		
 		Actions action = new Actions(driver);
 		action.doubleClick(buttonDoublClick).perform();
-		Thread.sleep(1000);
+		
 
 	}
 
