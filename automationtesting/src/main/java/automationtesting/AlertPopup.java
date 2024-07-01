@@ -24,6 +24,7 @@ public class AlertPopup {
 		Thread.sleep(3000);
 	//driver.switchTo().frame("iframe1");
 	//	driver.findElement(By.id("icon-button")).click();
+		Thread.sleep(3000);
 		
 		Thread.sleep(3000);
 		
