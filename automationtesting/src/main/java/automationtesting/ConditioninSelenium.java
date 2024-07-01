@@ -47,7 +47,7 @@ public class ConditioninSelenium {
 		WebElement orangeChectBox=driver.findElement(By.id("checkbox1"));
 		WebElement blueChectBox=driver.findElement(By.id("checkbox2"));
 		Thread.sleep(4000);
-		
+		Thread.sleep(4000);
 		if(orangeChectBox.isSelected()) {
 			blueChectBox.click();
 		}
