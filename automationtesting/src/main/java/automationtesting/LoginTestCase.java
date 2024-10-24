@@ -12,7 +12,7 @@ public class LoginTestCase {
 		driver.get("https://www.saucedemo.com/");
 		
 		driver.manage().window().maximize();
-		
+		// This line iss add from other person
 		driver.findElement(By.id("user-name")).sendKeys("standard_user");
 		
 		driver.findElement(By.name("password")).sendKeys("secret_sauce");
